@@ -25,7 +25,7 @@ function discountedTotal() {
     if (matchCode.value == 'stevekaku') {
         const TotalPriceText = document.getElementById('total-price');
         const TotalPrice = parseFloat(TotalPriceText.innerText)
-        const discount = TotalPrice / 20;
+        const discount = TotalPrice / 5;
         const discountedTotal = TotalPrice - discount;
         document.getElementById('final-total').innerText = discountedTotal;
         matchCode.value = '';
