@@ -18,7 +18,7 @@
         <section class="container-fluid">
             <div class="row">
                 <div class="ps-5 mt-5 col-lg-6">
-                    <img class="img-fluid faq-img" src="images/mac.png">
+                    <img class="img-fluid w-50  ps-5 float-md-end " src="images/mac.png">
                 </div>
 
                 <div class="ps-5 mt-5 col-lg-6">
@@ -34,58 +34,61 @@
                     <div class="mb-4 ">
 
                         <h4> Memory</h4>
-                        <input type="text" id="" placeholder="8GB unified memory">
-                        <input type="text" id="" placeholder="16GB unified memory">
 
-
+                        <button id="memory-one"> 8GB unified memory</button>
+                        <button id="memory-two"> 16GB unified memory</button>
                     </div>
                     <div class="mb-4 ">
 
                         <h4> storage</h4>
-                        <input type="text" id="" placeholder="256GB SSD storage">
-                        <input type="text" id="" placeholder="512GB SSD storage">
-                        <input type="text" id="" placeholder="1TB SSD storage">
-
+                        <button id="first-storage">256GB SSD storage </button>
+                        <button id="second-storage">512GB SSD storage </button>
+                        <button id="third-storage">1TB SSD storage </button>
 
                     </div>
-                    <div>
-
+                    <div class="mb-5">
                         <h4> Chose your delivery option </h4>
-                        <input type="text" id="" placeholder="Friday, Aug 25 FREE Prime Delivery">
-                        <input type="text" id="" placeholder="Friday, Aug 21 Delivery charge $20 ">
 
-
+                        <button id="shipping-1">Friday, Aug 25 FREE Prime Delivery </button>
+                        <button id="shipping-2">Friday, Aug 21 Delivery charge $20 </button>
                     </div>
-                    <div class="col-4 mb-5">
-                        <table class="table">
+                    <div class="col-4 mb-5 ">
+                        <table class="table fw-bold">
                             <tbody>
                                 <tr>
                                     <th scope="row">Best Price</th>
                                     <td id="best-price">$<span>1299</span> </td>
                                 </tr>
-                                <tr>
-                                    <th scope="row">done</th>
-                                    <td id="memory-cost">0</td>
-                                </tr>
+
                                 <tr>
                                     <th scope="row">Extra Memory Cost</th>
+                                    <td id="extra-cost">$<span>0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Extra Storage Cost</th>
+                                    <td id="storage-cost">$<span>0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="">Delivery charge</th>
                                     <td id="delivery-charge">$<span>0</span></td>
                                 </tr>
-                                <tr>
-                                    <th scope="row">Delivery charge</th>
 
-                                    <td id="total-price">$<span>0</span></td>
-                                </tr>
-                                <tr>
+
+                            <tfoot>
+                                <tr class="border-bottom-dark ">
                                     <th scope="row">Total Price</th>
-                                    <td id="undone-task">$<span>1299</span></td>
+                                    <td id="total-price">$<span>1299</span></td>
                                 </tr>
+                            </tfoot>
+
                             </tbody>
                         </table>
                         <div>
                             <h4> Add Promo code</h4>
-                            <input type="text" id="" placeholder="">
-                            <button class="btn btn-outline-danger" type="submit" id="apply-button">
+                            <input type="text" id="stevekaku" placeholder="">
+                            <button class="btn btn-outline-danger" type="submit" id="discount-price">
                                 Apply
                             </button>
 
@@ -99,15 +102,14 @@
 
             <hr>
             <div class="container">
-                <h4 class="text-center"> Total: $<span>1299</span> </h4>
+                <h4 class="text-center fs-1"> Total: $<span>1299</span> </h4>
+
 
 
             </div>
 
 
         </section>
-
-
 
 
 
